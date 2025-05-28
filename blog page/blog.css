@@ -1,0 +1,136 @@
+body{
+    margin: 15px;
+    text-align: center;
+    /*background: linear-gradient(to right, #3b82f6, #ec4899, #8b5cf6);*/
+    background-color: #95d4e9;
+   
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;/* bahinon niya ang button ug hyperlinks*/
+    align-items: center;
+    /*gap: 15px;*/
+    margin-top: 5px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: arial;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    background: linear-gradient(45deg, #3b82f6, #ec4899, #8b5cf6);
+
+    position: sticky;/*para naa ras taas permi ig scroll*/
+    top: 0;/*para mopilit sa taas*/
+    background-color: white; /* Para di ma transparent */
+    z-index: 1000; /* Ensures navbar stays above other elements */
+}
+    
+
+nav a{ /*target only navigation links para di maapil ang icon ug color gold */
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    margin: 50px;
+    margin-top: 50px;
+    font-size: 20px;
+    transition: 0.2s;
+    
+}
+
+nav a:hover{ /*target japon ni siya*/
+    text-decoration: underline;
+    color: gold;
+    transform: scale(1.2);
+}
+
+
+button{
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 5px;
+    transition: 0.2s;
+
+}
+
+button:hover{
+    color: gold;
+    transform: scale(1.2);
+
+    
+}
+
+.log-in{
+    background-color: white;
+    /*border: 1px solid black;every side color*/
+    border-radius: 5px;
+}
+
+.create-account{
+    color: white;
+    background-color: black;
+    border: white;
+    border-radius: 5px;
+}
+
+article{
+    font-family: arial;
+}
+
+h1{
+    color: red;
+}
+
+.image-container{
+    display: inline-block;
+    position: relative;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+    height: 800px;
+    background: linear-gradient(45deg, #3b82f6, #ec4899, #8b5cf6);
+    border-radius: 15px;
+    
+  
+}
+
+.icons-pic {
+    position: absolute;
+    bottom: 10px;  /* Adjust this value to move icons up/down */
+    right: 10px;   /* Adjust this value to move icons left/right */
+    opacity: 0.5;
+}
+
+.icons-pic a {
+    margin: 5px;
+    display: inline-block;
+    color: black;  /* Default icon color */
+    transition: color 0.3s;
+}
+
+.icons-pic a:hover{
+    color: blue;
+}
+
+
+hr{
+    width: 50%;/*gi-lapdon*/
+    /*height: 5px;/*gi bag-on*/
+    border: 1px solid blue;/*gi nipison*/
+    opacity: 0.3;
+   
+    
+}
+
+
+
+
+
+   
+   
